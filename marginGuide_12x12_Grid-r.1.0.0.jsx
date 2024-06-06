@@ -1,3 +1,7 @@
+// Illustrator Grid and Margin Script
+// This Adobe Illustrator script generates a customizable grid and calculates margins using the diagonal line of the artboard. The margin calculation is inspired by the Pythagorean theorem. Users can specify the number of grid rows, columns, and the division of the diagonal line for margin calculation through window prompts.
+// Made by: thomasmattias – Made using Open AI ChatGPT
+
 // Define variables for easy customization
 var gridRows = prompt("Enter number of rows in the grid:", "12"); // Number of rows in the grid
 var gridColumns = prompt("Enter number of columns in the grid:", "12"); // Number of columns in the grid
